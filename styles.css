@@ -1,0 +1,52 @@
+.background1 {
+    background-color: #ebebeb;
+}
+
+.navbg {
+    background-color: #ffffff;
+}
+
+.navmain {
+    background-color: #7851a9;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 250%;
+    padding: 10px;
+}
+
+.figs {
+    cursor:pointer;
+    float: left;
+}
+
+.jumbo-left {
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+
+.jumbo-right {
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+
+.selected {
+    border-color: #1ddd33;
+    border-style: solid
+}
+
+.panelwrap {
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 480px){
+    .navbg {
+        background-color: #7851a9;
+    }
+    .navmain {
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 250%;
+        padding: 10px;
+    }
+}
